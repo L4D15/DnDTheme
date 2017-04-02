@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,900');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700');
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    font-size: 100%;
+    color: #222;
+}
+
+p {
+    font-size: .8em;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-family: 'Crimsom Text';
+    font-variant: small-caps;
+    color: #5c463e;
+}
+
+h2 {
+    font-family: 'Crimsom Text';
+    font-variant: small-caps;
+    color: #5c463e;
+}
+
+h3 {
+    font-family: 'Crimsom Text';
+    font-variant: small-caps;
+    color: #5c463e;
+    border-bottom: 2px solid #c9ad6a;
+}
+
+blockquote p {
+}
+
+blockquote {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background-color: #e0e5c1;
+    border-style: solid;
+    border-width: 11px;
+    border-image: url(./images/block_border.png) 11;
+    border-image-outset: 9px 0px;
+    box-shadow: 1px 4px 14px #888;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+b, strong {
+    color: #5c463e;
+}
+
+a.tc-tiddlylink-resolves {
+    font-weight: bold;
+    text-decoration: none;
+    color: #35a3d9;
+}
+
+a.tc-tiddlylink-resolves:hover {
+    text-decoration: underline;
+}
+
+a.tc-tiddlylink-missing {
+    text-decoration: none;
+    color: #fb6b26;
+}
+
+a.tc-tiddlylink-missing:hover {
+    text-decoration: underline;
+}
+
+table {
+    position: relative;
+    float: right;
+    margin-right: 12px;
+    margin-left: auto;
+    border: none;
+    padding: 2px 12px;
+}
+
+table thead tr td, table th {
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+table tr {
+    font-size: 0.8em;
+}
+
+table tr:nth-child(even) {
+    background-color: #e0e5c1;
+}
+
+table tr td {
+    border: none;
+    padding: 4px 12px;
+}
+
+div.tc-tiddler-frame.tc-tiddler-view-frame.tc-tiddler-exists {
+    //background-image: url("./images/background_light.jpg");
+    background-color: #eee5ce;
+    background-image: url(./images/paper_background.jpeg);
+    box-shadow: 1px 4px 14px #000;
+}
+
+body.tc-body {
+    //background-image: url("./images/background.jpg");
+    background-color: #2d3e4f;
+}
