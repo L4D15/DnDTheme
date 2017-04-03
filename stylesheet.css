@@ -34,6 +34,10 @@ h3 {
     border-bottom: 2px solid #c9ad6a;
 }
 
+.tc-site-title {
+    color: #35a3d9;
+}
+
 blockquote p {
 }
 
@@ -74,10 +78,7 @@ a.tc-tiddlylink-missing:hover {
 }
 
 table {
-    position: relative;
-    float: right;
-    margin-right: 12px;
-    margin-left: auto;
+    margin: auto;
     border: none;
     padding: 2px 12px;
 }
